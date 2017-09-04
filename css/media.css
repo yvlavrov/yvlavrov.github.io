@@ -1,0 +1,187 @@
+/* xl-размер (>=1200px) */
+/* CSS для >=1200px */
+@media (min-width: 1200px) {
+	.nav-menu__menuToggle,
+	.nav-menu__search{
+		display: none;
+	}
+		.footer-sm {
+		display: none;
+	}
+	.sideMenuToggle--sm {
+		display: none;
+	}
+}
+
+/* lg-размер (<=1199px) */
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+	.nav-top__phone--md {
+		display: block;
+	}
+	.nav-top__phone {
+		display: none;
+	}
+	.phone-top {
+		display: none;
+	}
+
+	.info-tab__guarantee {
+		display: none;
+	}
+	.info-tab__market {
+		display: none;
+	}
+	.info-tab {
+		max-width: 100%;
+	}
+	.nav-menu__menuToggle,
+	.nav-menu__search{
+		display: none;
+	}
+		.footer-sm {
+		display: none;
+	}	
+	
+}
+ 
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+
+  .item-day {
+  	display: none;
+  }
+
+  .nav-left {
+  	display: none;
+  }
+	.bodyWrapper-2 {
+	padding: 0;
+  }	
+	.footer {
+		padding: 0 5px;
+	}
+
+	.footer > div {
+		flex-grow: 1;
+	}
+	.exit--md {
+	display: block;
+	}
+	.exit {
+		display: none;
+	}
+	.nav-menu .nav-menu__item {
+		padding-right: 5px;
+		padding-left: 5px; 
+	}
+	.cart-number {
+		padding-right: 13px;
+		padding-left: 13px; 
+	}
+
+	.sideMenuToggle {
+		display: block;
+	}
+	.logo {
+		display: none;
+	}
+	.header-bottom {
+		padding-left: 30px;
+	}
+	.nav-menu__menuToggle,
+	.nav-menu__search{
+		display: none;
+	}
+		.footer-sm {
+		display: none;
+	}
+}
+ 
+/* sm-размер (<=768px) */
+@media (max-width: 767px) { 
+  /* CSS для ширины от 576px до 767px */
+	.nav-menu__menuToggle,
+	.nav-menu__search{
+		display: block;
+	}
+	.header-bottom {
+		display: none;
+	}
+	.nav-menu__catalogue, 
+	.nav-menu__recipes, 
+	.nav-menu__delivery,
+	.nav-menu__payment,
+	.nav-menu__reviews,
+	.account, .issue-btn
+	 {
+		display: none;
+	}
+	.price {
+		display: none;
+	}
+	.sideMenuToggle {
+		display: none;
+	}
+	.slider__menu {
+		display: none;
+	}
+	.slider-container {
+
+	}
+	.row-2 {
+		height: 100%
+	}
+
+	.slider img {
+		height: auto;
+		width: 130%;
+	}
+	.recipes {
+		flex-flow: column;
+	}
+	.features {
+		flex-flow: column;
+	}
+	.features_subscribe img {
+		display: none;
+	}
+	.features_subscribe {
+		padding-bottom: 10px;
+		padding-top: 0;
+	}
+
+	.paymentMethods {
+		display: none;
+	}
+	.footer {
+		display: none;
+	}
+	.footer-sm {
+		display: block;
+	}
+	.sideMenuToggle--sm {
+		display: block;
+}
+ 
+@media (max-width: 575px) {
+  .row-3 .subtitle, .row-4 .subtitle, .row-5 .subtitle, .row-6 .subtitle {
+	text-align: left;
+	padding-left: 20px;
+}	
+	.fa-angle-right {
+	position: absolute;
+	right: 10px;
+	top: 30px;
+	cursor: pointer;
+}
+
+	.fa-angle-left {
+	position: absolute;
+	right: 45px;
+	top: 30px;
+	z-index: 9999;
+	cursor: pointer;
+}
+}
