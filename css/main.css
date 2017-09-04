@@ -184,7 +184,7 @@ body {
 	text-transform: uppercase;
 	font-size: 9.5px;
 	color: white;
-	padding: 13px 10px;
+	padding: 14.5px 10px;
 	display: block;
 	text-decoration: none;
 	align-content: flex-start;
@@ -229,12 +229,10 @@ body {
 	border-radius: 5px;
 	white-space: nowrap;
 	color: #fff;
-	padding: auto 0;
 	display: block;
 	margin: 5px 15px 7px 5px;
 	font-size: 20px;
 	text-decoration: none;
-	vertical-align: middle;
 }
 
 .btn:hover {
@@ -243,7 +241,7 @@ body {
 }
 
 .btn i {
-	padding-right: 10px;
+	padding-right: 8px;
 	vertical-align: middle;
 }
 
@@ -273,7 +271,7 @@ body {
 }
 
 .nav-menu__search a {
-	padding: 10px; 
+	padding: 11.1px 5px; 
 }
 
 .nav-menu__menuToggle i {
@@ -281,7 +279,7 @@ body {
 }
 
 .nav-menu__menuToggle a {
-	padding: 11px; 
+	padding: 11.1px; 
 }
 
 .account {
@@ -293,7 +291,7 @@ body {
 	text-transform: uppercase;
 	font-size: 9.5px;
 	color: white;
-	padding: 6.5px 10px;
+	padding: 9px 10px;
 	display: block;
 	text-decoration: none;
 	align-content: flex-start;
@@ -337,9 +335,9 @@ height: 40px;
 }
 
 .nav-menu__item .cart-number {
-	padding-top: 3px;
 	padding: 0;
-}
+	padding-top: 5px;
+	}
 .cart img {
 	width: 25px;
 	text-align: center;
@@ -352,7 +350,7 @@ height: 40px;
 	font-size: 9.5px;
 	font-weight: 800;
 	color: #fff;
-	padding: 13px 5px 13px 0; 
+	padding: 15px 4px; 
 	max-width: 54px;
 
 }
@@ -1288,7 +1286,7 @@ display: flex;
 		padding: 20px;
 		margin-top: 20px;
 		background-color: #fff;
-		font-family: 'Museo', sans-serif;
+		font-family: 'Museo Sans', sans-serif;
 	}
 	.footer-sm__blocks {
 		display: -webkit-flex;
