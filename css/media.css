@@ -163,6 +163,10 @@
 	}
 	.sideMenuToggle--sm {
 		display: block;
+	}
+	.row-1 h2 {
+		font-size: 22px;
+	}
 }
  
 @media (max-width: 575px) {

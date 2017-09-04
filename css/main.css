@@ -605,7 +605,7 @@ top: 10px;
 /*-------------------------row-1--------------------------------------*/
 .row-1 {
 	padding-top: 15px;
-	max-height: 80px;
+	min-height: 80px;
 	display: flex;
 	justify-content: center;
 	flex-grow: 1;
@@ -622,7 +622,8 @@ top: 10px;
 .row-1 h2 {
 	margin: 0;
 	font-family: "Museo Sans", sans-serif;
-	font-weight: bold;
+	font-weight: 800;
+	font-size: 26px;
 	text-align: center;
 
 }
@@ -630,8 +631,10 @@ top: 10px;
 .row-1 p {
 	margin: 0;
 	margin-top: 10px;
+	font-weight: 600;
 	font-size: 14px;
 	font-family: "Museo Sans", sans-serif;
+	color: #4c4c4c;
 }
 
 .row-1__wrapper > p > .dropDownMenuBtn {
