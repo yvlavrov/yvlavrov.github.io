@@ -689,35 +689,43 @@ top: 10px;
 
 /*-------------------------row-2--------------------------------------*/
 .row-2 {
-	display: flex;
 	background-color: #fff;
-	max-height: 328px;
 	margin-top: 14px;
 	overflow: hidden;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
 }
+
+.slider > div {
+	max-height: 322px;
+	height: 100%;
+}
+
 .slider-container {
-	flex-grow: 1;
-	background-color: #fff;
-	height: 322px;
-	overflow: hidden;
-	position: relative;
+max-width: 815px;
+flex-shrink: 1;
+width: auto;
+height: 322px;
 }
 
 .slider {
-	position: relative;
+
+position: relative;
 
 }
 
 .slider img {
 	height: 322px;
-
 	position: absolute;
-	z-index: 1;
 	top: 0;
 	left: 0;
+	
 }
 
-.slider__menu {
+/* .slider__menu {
 	list-style: none;
 	width: 138px;
 	height: 325.72px;
@@ -778,7 +786,7 @@ top: 10px;
 
 .slider__menu li:hover:before {
 	display: block;
-}
+} */
 
 .item-day {
 	width: 176px;

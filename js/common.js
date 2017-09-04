@@ -46,14 +46,14 @@ $(window).load(function() {
 
 });
 
-/*$(document).ready(function(){
+$(document).ready(function(){
   $('.slider').slick({
   	autoplay: true,
   	fade: true,
   	arrows: false
   });
-
-
+});
+/*
   $('.item-slider').slick({
   	autoplay: false,
   	infinite: false,
