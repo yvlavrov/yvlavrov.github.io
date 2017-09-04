@@ -4,7 +4,7 @@
 	src: url("../fonts/MuseoSansBlack/MuseoSansBlack.eot?#iefix") format("embedded-opentype"),
 			 url("../fonts/MuseoSansBlack/MuseoSansBlack.woff") format("woff"),
 			 url("../fonts/MuseoSansBlack/MuseoSansBlack.ttf") format("truetype");
-	font-style: bolder;
+	font-style: normal;
 	font-weight: 800;
 }
 
@@ -14,7 +14,7 @@
 	src: url("../fonts/MuseoSansBold/MuseoSansBold.eot?#iefix") format("embedded-opentype"),
 			 url("../fonts/MuseoSansBold/MuseoSansBold.woff") format("woff"),
 			 url("../fonts/MuseoSansBold/MuseoSansBold.ttf") format("truetype");
-	font-style: bold;
+	font-style: normal;
 	font-weight: 600;
 }
 
@@ -24,7 +24,7 @@
 	src: url("../fonts/MuseoSansMedium/MuseoSansMedium.eot?#iefix") format("embedded-opentype"),
 			 url("../fonts/MuseoSansMedium/MuseoSansMedium.woff") format("woff"),
 			 url("../fonts/MuseoSansMedium/MuseoSansMedium.ttf") format("truetype");
-	font-style: 400;
+	font-style: normal;
 	font-weight: 400;
 }
 
@@ -34,6 +34,16 @@
 	src: url("../fonts/MuseoSansRegular/MuseoSansRegular.eot?#iefix") format("embedded-opentype"),
 			 url("../fonts/MuseoSansRegular/MuseoSansRegular.woff") format("woff"),
 			 url("../fonts/MuseoSansRegular/MuseoSansRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Georgia";
+	src: url("../fonts/Georgia/Georgia.eot");
+	src: url("../fonts/Georgia/Georgia.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Georgia/Georgia.woff") format("woff"),
+			 url("../fonts/Georgia/Georgia.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
