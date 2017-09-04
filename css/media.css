@@ -127,17 +127,18 @@
 	.slider__menu {
 		display: none;
 	}
-	.slider-container {
-
-	}
-	.row-2 {
-		height: 100%
-	}
-
+	
 	.slider img {
-		height: auto;
-		width: 130%;
+	max-height: 260px;
 	}
+	.slider-container {
+	min-height: 280px;
+	}
+
+/* 	.slider img {
+	height: auto;
+	width: 130%; 
+	}*/
 	.recipes {
 		flex-flow: column;
 	}
@@ -188,4 +189,11 @@
 	z-index: 9999;
 	cursor: pointer;
 }
+	.slider img {
+	max-height: 220px;
+	}
+	.slider-container {
+	min-height: 230px;
+	}
+
 }
