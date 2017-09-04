@@ -9,7 +9,7 @@
 }
 
 @font-face {
-	font-family: "MuseoSansBold";
+	font-family: "Museo Sans";
 	src: url("../fonts/MuseoSansBold/MuseoSansBold.eot");
 	src: url("../fonts/MuseoSansBold/MuseoSansBold.eot?#iefix") format("embedded-opentype"),
 			 url("../fonts/MuseoSansBold/MuseoSansBold.woff") format("woff"),
@@ -19,7 +19,7 @@
 }
 
 @font-face {
-	font-family: "MuseoSansMedium";
+	font-family: "Museo Sans";
 	src: url("../fonts/MuseoSansMedium/MuseoSansMedium.eot");
 	src: url("../fonts/MuseoSansMedium/MuseoSansMedium.eot?#iefix") format("embedded-opentype"),
 			 url("../fonts/MuseoSansMedium/MuseoSansMedium.woff") format("woff"),
@@ -29,7 +29,7 @@
 }
 
 @font-face {
-	font-family: "MuseoSansRegular";
+	font-family: "Museo Sans";
 	src: url("../fonts/MuseoSansRegular/MuseoSansRegular.eot");
 	src: url("../fonts/MuseoSansRegular/MuseoSansRegular.eot?#iefix") format("embedded-opentype"),
 			 url("../fonts/MuseoSansRegular/MuseoSansRegular.woff") format("woff"),
@@ -40,10 +40,10 @@
 
 @font-face {
 	font-family: "Georgia";
-	src: url("../fonts/Georgia/Georgia.eot");
-	src: url("../fonts/Georgia/Georgia.eot?#iefix") format("embedded-opentype"),
-			 url("../fonts/Georgia/Georgia.woff") format("woff"),
-			 url("../fonts/Georgia/Georgia.ttf") format("truetype");
+	src: url("../fonts/Georgia/georgia.eot");
+	src: url("../fonts/Georgia/georgia.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Georgia/georgia.woff") format("woff"),
+			 url("../fonts/Georgia/georgia.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
