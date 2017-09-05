@@ -118,7 +118,7 @@
 	 {
 		display: none;
 	}
-	.nav-menu__item .price {
+	.nav-menu .price {
 		display: none;
 	}
 	.sideMenuToggle {
@@ -167,6 +167,14 @@
 	}
 	.row-1 h2 {
 		font-size: 22px;
+	}
+	.nav-menu {
+		position: fixed;
+		width: 100%;
+		z-index: 10000;
+	}
+	.row-1 {
+		padding-top: 50px;
 	}
 }
  

@@ -565,7 +565,7 @@ height: 40px;
 	min-width: 200px;
 }
 html.mm-opening .mm-menu~.mm-slideout {
-    transform: translate3d(209px,0,0);
+    transform: translate3d(200px,0,0);
 }
 /* стилизация пллагина #my-menu-2 */
 #my-menu-2 {
