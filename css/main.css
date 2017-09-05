@@ -97,7 +97,7 @@ body {
 	background-color: #fff;
 	padding: 13px 37px;
 	position: fixed;
-	z-index: 9999;
+	z-index: 10000;
 	bottom: 20px;
 	right: 50px;
 	border-radius: 25px;
@@ -598,9 +598,17 @@ top: 10px;
 	position: absolute;
 	left: 60px;
 	top: 18px;
-
+}
+#my-menu-2 .phoneAside a {
+	text-transform: none;
+	font-weight: 400;
+	padding-top: 10px;
+	line-height: 1.4;
 }
 
+#my-menu-2 .phoneAside span {
+	font-weight: 800;
+}
 
 /*-------------------------row-1--------------------------------------*/
 .row-1 {
@@ -722,7 +730,7 @@ top: 10px;
 .slider > div {
 	max-width: 850px;
 	min-width: 300px;
-
+/* -----------------------------SLICK DOTS--------------------- */
 }
 .slick-dots {
 	max-width: 220px;
@@ -740,7 +748,7 @@ top: 10px;
 .slick-dots li button:before {
 	font-size: 8px;
 }
-
+/* -----------------------------SLICK MENU--------------------- */
 /* .slider__menu {
 	list-style: none;
 	width: 138px;
@@ -822,6 +830,32 @@ top: 10px;
 	padding-left: 28px;
 	margin-bottom: 14px;
 }
+/*-------------------------newAndDiscount--------------------------------------*/
+.newAndDiscount {
+	margin-top: 20px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	height: 50px;
+	background-color: #fff;
+	display: none;
+}
+.newAndDiscount > div {
+	border: 1px solid #F2f2f2;
+	border-collapse: collapse;
+	flex-grow: 1;
+	padding: 12px 0;
+	
+}
+.newAndDiscount > div > a {
+	display: block;
+	height: 20px;
+	width: 60px;
+	padding-top: 6px;
+	margin: 0 auto;
+}
 
 /*-------------------------row-3--------------------------------------*/
 .row-3, .row-4, .row-5, .row-6 {
@@ -831,6 +865,7 @@ top: 10px;
 	padding-top: 34px;
 	padding-bottom: 20px;
 }
+
 
 .row-3 .subtitle, .row-4 .subtitle, .row-5 .subtitle, .row-6 .subtitle {
 	text-align: center;
@@ -987,6 +1022,14 @@ top: 10px;
 	width: 100%;
 	height: 28px;
 	display: inline-block;
+	color: #8E8E8E;
+}
+.item-slider__item .weight {
+	color: #8E8E8E;
+}
+
+.item-slider__item .reviews {
+	color: #8E8E8E;
 }
 
 .item-slider__item .price {

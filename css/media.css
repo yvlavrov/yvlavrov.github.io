@@ -176,6 +176,12 @@
 	.row-1 {
 		padding-top: 50px;
 	}
+	.row-3 {
+		margin-top: 0;
+	}
+	.newAndDiscount {
+		display: flex;
+	}
 }
  
 @media (max-width: 575px) {
