@@ -178,6 +178,7 @@ body {
 	border-left: 1px solid #782c30;
 	border-top: : 1px solid #782c30;
 	border-bottom: 1px solid #5a0007;
+
 }
 
 .nav-menu__item {
@@ -192,6 +193,7 @@ body {
 	white-space: nowrap;
 	display: block;
 	text-align: center;
+
 }
 
 .nav-menu__item:hover {
@@ -282,23 +284,26 @@ body {
 	padding: 11.1px; 
 }
 
-.account {
+.nav-menu .account {
 	border: none;
+	max-height: 40px;
+	background-color: #bb3742;
+
 }
 
 .account a {
-	background-color: #bb3742;
+	min-width: 110px;
 	text-transform: uppercase;
 	font-size: 9.5px;
 	color: white;
-	padding: 9px 10px;
-	display: block;
+	padding: 8px 0;
 	text-decoration: none;
-	align-content: flex-start;
 	font-weight: 800;
 	white-space: nowrap;
-	display: block;
 	text-align: center;
+	display: block;
+	
+
 }
 .account a:hover {
 	background-color: #A03843;
@@ -330,7 +335,7 @@ display: -ms-flex;
 display: -o-flex;
 display: flex;
 flex-flow: column;
-padding: 0;
+padding: 0.1px 0;
 height: 40px;
 }
 
