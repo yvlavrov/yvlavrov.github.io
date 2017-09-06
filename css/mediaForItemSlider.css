@@ -24,13 +24,13 @@
 
 @media (min-width: 906px) and (max-width: 991px) {
 	 .item-slider {
-		max-width: 900px;
+		max-width: 810px;
 	}
 }
 
 @media (min-width: 726px) and (max-width: 905px) {
   	 .item-slider {
-		max-width: 733px;
+		max-width: 640px;
 
 	}
 }
@@ -46,7 +46,7 @@
 }
 @media (max-width: 369px) {
 	 .item-slider {
-		max-width: 320px;
+		max-width: 300px;
 
 	}
 }
