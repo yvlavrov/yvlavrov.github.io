@@ -1255,9 +1255,22 @@ display: flex;
 	display: flex;
 	font-family: 'Museo Sans', sans-serif;
 }
+.footer__leftWrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	max-width: 700px;
+	flex-grow: 1;
+}
+.footer__leftWrapper > div {
+	flex-grow: 1;
+}
 
 .about, .forCustomers, .paymentMethods  {
 	padding-right: 20px;
+
 }
 
 
