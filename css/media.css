@@ -185,6 +185,15 @@
 	.newAndDiscount {
 		display: flex;
 	}
+	.item-slider__item .inStock{
+	display: none;
+	}
+	.item-slider__item .reviews{
+	display: none;
+	}
+	.item-slider__item .btn-buy{
+	display: block;
+}
 
 }	
 
