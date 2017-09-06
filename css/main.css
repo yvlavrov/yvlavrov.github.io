@@ -60,6 +60,10 @@ body {
 	zoom: 1.1;
 	background-color: #f8f8f8;
 	margin: 0;
+	-webkit-font-smoothing: subpixel-antialiased !important;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
 }
 .hidden {
 	display: none;
@@ -954,8 +958,8 @@ margin-top: 10px;
 
 .item-slider > div {
 	padding: 1px;
-
 }
+
 
 .item-slider__item {
 	display: -webkit-flex;
@@ -1041,13 +1045,13 @@ margin-top: 10px;
 .item-slider__item img {
 	padding: 0 14px;
 	padding-top: 5px;
-	width: 130px;
-	max-height: 125px;
+	width: auto;
+	max-height: 100px;
 	text-align: center;
 	display: inline-block;
 	position: absolute;
 	top: 0;
-	right: 0;
+	
 }
 
 
@@ -1091,14 +1095,16 @@ margin-top: 10px;
 
 .item-slider__item .crossed-price {
 	font-size: 11px;
+	width: 10px;
 	font-weight: 800;
 	position: relative;
+	padding-right: 8px;
 }
 
 .item-slider__item .crossed-price:before {
 	position: absolute;
 	content: "";
-	width: 22px;
+	width: 18px;
 	height: 20px;
 	border-bottom: 1.7px solid #bb3943;
 	transform: rotate(-15deg);
