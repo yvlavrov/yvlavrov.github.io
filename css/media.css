@@ -42,6 +42,7 @@
 		.footer-sm {
 		display: none;
 	}	
+
 	
 }
  
@@ -97,11 +98,13 @@
 		.footer-sm {
 		display: none;
 	}
+
+
 }
  
 /* sm-размер (<=768px) */
 @media (max-width: 767px) { 
-  /* CSS для ширины от 576px до 767px */
+  	/* CSS для ширины от 576px до 767px */
 	.nav-menu__menuToggle,
 	.nav-menu__search{
 		display: block;
@@ -135,7 +138,7 @@
 	min-height: 280px;
 	}
 
-/* 	.slider img {
+	/* 	.slider img {
 	height: auto;
 	width: 130%; 
 	}*/
@@ -182,27 +185,30 @@
 	.newAndDiscount {
 		display: flex;
 	}
-}
+
+}	
+
  
 @media (max-width: 575px) {
-  .row-3 .subtitle, .row-4 .subtitle, .row-5 .subtitle, .row-6 .subtitle {
+  	.row-3 .subtitle, .row-4 .subtitle, .row-5 .subtitle, .row-6 .subtitle {
 	text-align: left;
 	padding-left: 20px;
-}	
-	.fa-angle-right {
-	position: absolute;
-	right: 10px;
-	top: 30px;
-	cursor: pointer;
+	}	
+/* 	.fa-angle-right {
+position: absolute;
+right: 10px;
+top: 30px;
+cursor: pointer;
 }
 
-	.fa-angle-left {
-	position: absolute;
-	right: 45px;
-	top: 30px;
-	z-index: 9999;
-	cursor: pointer;
-}
+.fa-angle-left {
+position: absolute;
+right: 45px;
+top: 30px;
+z-index: 9999;
+cursor: pointer;
+} */
+
 	.slider img {
 	max-height: 220px;
 	}

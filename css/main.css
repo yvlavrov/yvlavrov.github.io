@@ -815,9 +815,13 @@ top: 10px;
 .item-day {
 	width: 176px;
 	height: 100%;
+	padding-top: 20px;
 	margin-left: 20px;
 	background-color: #fff;
-
+}
+.item-day .item-slider__item{
+display: inline-block;
+margin-top: 10px;
 }
 .item-day i {
 	font-size: 20px;
@@ -825,10 +829,8 @@ top: 10px;
 }
 
 .item-day .subtitle {
-	display: inline-block;
-	padding-right: 13px;
-	padding-left: 28px;
 	margin-bottom: 14px;
+	padding-left: 35px;
 }
 /*-------------------------newAndDiscount--------------------------------------*/
 .newAndDiscount {
@@ -879,27 +881,53 @@ top: 10px;
 
 .fa-angle-right {
 	position: absolute;
-	right: 33px;
-	top: 30px;
+	right: 43px;
+	top: -23px;
 	cursor: pointer;
+	font-size: 28px;
+	color: #BB3943;
 }
 
 .fa-angle-left {
 	position: absolute;
-	right: 80px;
-	top: 30px;
+	right: 90px;
+	top: -23px;
 	z-index: 9999;
 	cursor: pointer;
+	font-size: 28px;
+	color: #BB3943;
+}
+/*
+.slider-container {
+	flex-grow: 1;
+	position: relative;
+	overflow: hidden;
+	max-width: 815px;
+	min-height: 360px;
 }
 
+.slider {
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 850px;
+	margin: 0 auto; 
+
+}
+.slider img {
+	max-height: 360px;
+}
+
+.slider > div {
+	max-width: 850px;
+	min-width: 300px;
+*/
 .item-slider {
-	overflow: hidden;
 	padding-top: 25px;
-	height: 273px;
-	overflow: hidden;
 	position: relative;
-	padding-left: 1px;
-	height: 265px;
+	padding-left: 5px;
+	padding-right: 5px;
+
 }
 
 .endFade {
@@ -913,8 +941,17 @@ top: 10px;
 	background: linear-gradient(to left, #fff 30%, rgba(0,0,0,0));
 }
 
+.item-slider > div {
+	padding: 1px;
+
+}
+
 .item-slider__item {
-	display: inline-block;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
 	width: 158px;
 	height: 134px;
 	text-align: center;
@@ -923,6 +960,7 @@ top: 10px;
 	padding-top: 130px;
 	overflow: hidden;
 	position: relative;
+
 }
 
 .addToFavorites {
@@ -981,7 +1019,7 @@ top: 10px;
 	border: none;
 	position: absolute;
 	bottom: 3px;
-	left: 16px;
+	left: 14%;
 }
 
 

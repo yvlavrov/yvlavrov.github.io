@@ -55,19 +55,78 @@ $(document).ready(function(){
   	appendDots: $('.slider__dots')
   });
 });
-/*
+
+$(document).ready(function(){
   $('.item-slider').slick({
   	autoplay: false,
   	infinite: false,
   	speed: 600,
-  	slidesToShow: 8,
-  	slidesToScroll: 6,
+  	slidesToShow: 6,
+  	slidesToScroll: 4,
   	slidesPerRow: 1,
   	nextArrow: '<i class="fa fa-angle-right" aria-hidden="true"></i>',
     prevArrow: '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+    responsive: [
+    {
+      breakpoint: 1314,
+      settings: {
+	  slidesToShow: 5,
+	  slidesToScroll: 4,
+	  slidesPerRow: 1,
+      }
+    },
+    {
+      breakpoint: 1136,
+      settings: {
+	  slidesToShow: 4,
+	  slidesToScroll: 3,
+	  slidesPerRow: 1,
+      }
+    },
+     {
+      breakpoint: 991,
+      settings: {
+	  slidesToShow: 5,
+	  slidesToScroll: 4,
+	  slidesPerRow: 1,
+      }
+    },
+    {
+      breakpoint: 905,
+      settings: {
+      slidesToShow: 4,
+	  slidesToScroll: 3,
+	  slidesPerRow: 1,
+      }
+    }, 
+    {
+      breakpoint: 726,
+      settings: {
+      slidesToShow: 3,
+	  slidesToScroll: 2,
+	  slidesPerRow: 1,
+       }
+    },
+     {
+      breakpoint: 549,
+      settings: {
+      slidesToShow: 2,
+	  slidesToScroll: 2,
+	  slidesPerRow: 1,
+       }
+    },
+     {
+      breakpoint: 370,
+      settings: {
+      slidesToShow: 2,
+	  slidesToScroll: 2,
+	  slidesPerRow: 1,
+       }
+    }
+  ]
   });
 });
-*/
+
 
 /*скрытие-открытие dropDownMenu*/
 
